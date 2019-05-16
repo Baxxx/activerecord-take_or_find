@@ -1,0 +1,7 @@
+language: ruby
+before_install:
+  - rvm @global do gem install bundler:1.16.6
+rvm:
+  - 2.5.1
+before_script:
+  - bundle exec rubocop
