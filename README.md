@@ -1,4 +1,4 @@
-# ActiveRecord::TakeOrFind
+# ActiveRecord::TakeOrFind [![Build Status](https://travis-ci.com/Baxxx/activerecord-take_or_find.svg?branch=master)](https://travis-ci.com/Baxxx/activerecord-take_or_find)
 
 TakeOrFind is an extension to ActiveRecord which provides a method on your Rails models. Depending on the passed argument, which can either be a number (ID) or instance of that model, it lets you either find a record by the ID or use the record itself.
 
