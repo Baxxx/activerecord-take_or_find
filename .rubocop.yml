@@ -1,6 +1,10 @@
 AllCops:
   TargetRubyVersion: 2.5.1
 
+Naming/FileName:
+  Exclude:
+    - lib/activerecord-take_or_find.rb # must be named this because it's the gem's name
+
 Style/Documentation:
   Enabled: false
 Style/StringLiterals:
